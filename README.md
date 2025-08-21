@@ -28,7 +28,7 @@ Your dataset should follow this format:
 Use the provided script to split the dataset into `train/val/test` sets:
 
 ```bash
-python3 tools/split_dataset.py --data_root ./dataset --train_ratio 0.7 --val_ratio 0.2 --test_ratio 0.1
+ `python3 tools/split_dataset.py --data_root ./dataset --train_ratio 0.7 --val_ratio 0.2 --test_ratio 0.1
 dataset/
   ├── train/
   │    ├── corridor/
@@ -42,4 +42,44 @@ dataset/
   │    ├── corridor/
   │    ├── elevator/
   │    └── ...
+```
+## Trainig
+```bash
+ python3 test_scenenet_rgb.py \
+  --data_root /home/imad/Documents/scene_understanding/dataset/dataset \
+  --weights   /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/best_ema.pt \
+  --width_mult 1.0 --img_size 224 --batch_size 64 \
+  --save_csv /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/val_preds.csv
+
+```
+## Testing
+```bash
+python3 test.py \
+  --data_root ./dataset/test \
+  --model ./out_scenenet/best_model.pt \
+  --batch_size 4
+
+```
+## Prediction on Images
+```bash
+python3 predict_images.py \
+  --images /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/dataset \
+  --weights /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/best_ema.pt \
+  --width_mult 1.0 --img_size 224 \
+  --save_csv /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/unlabeled_preds.csv \
+  --copy_to /home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/predicted_folders
+```
+## ROS-2 Integration
+
+SceneNet integrates with ROS 2 for live scene classification.
+```bash
+python3 swift_scenenet_node.py \
+  --ros-args \
+  -p weights_path:=/home/imad/Documents/scene_understanding/dataset/out_scenenet_rgb/best_ema.pt \
+  -p image_topic:=/camera/camera/color/image_raw \
+  -p use_gpu:=true \
+  -p width_mult:=1.0 \
+  -p img_size:=224 \
+  -p attn_pool:=14 \
+  -p drop_rate:=0.1
 
