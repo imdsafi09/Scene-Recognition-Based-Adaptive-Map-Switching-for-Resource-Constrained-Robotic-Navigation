@@ -43,6 +43,12 @@ dataset/
   │    ├── elevator/
   │    └── ...
 ```
+# Install install dependencies
+```bash
+
+pip install -r requirements.txt
+```
+
 ## Training SceneNet
 ```bash
  python3 test_scenenet_rgb.py \
