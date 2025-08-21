@@ -1,0 +1,16 @@
+# Core numeric + image stack
+numpy>=1.24.0,<2.0.0
+pillow>=9.5.0
+matplotlib>=3.7.1
+opencv-python>=4.8.0.76
+
+# PyTorch (GPU/CPU build is platform-specific; versions kept mutually compatible)
+torch>=2.1,<3.0
+torchvision>=0.16,<0.20
+
+# Nice to have (progress bars, colored logs) — safe to keep
+tqdm>=4.65.0
+rich>=13.3.0
+
+# ROS2 Python dependencies should be installed via apt, not pip:
+#   sudo apt-get install ros-humble-rclpy ros-humble-cv-bridge ros-humble-sensor-msgs ros-humble-std-msgs
