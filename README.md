@@ -43,7 +43,7 @@ dataset/
   │    ├── elevator/
   │    └── ...
 ```
-## Trainig
+## Training SceneNet
 ```bash
  python3 test_scenenet_rgb.py \
   --data_root /home/imad/Documents/scene_understanding/dataset/dataset \
