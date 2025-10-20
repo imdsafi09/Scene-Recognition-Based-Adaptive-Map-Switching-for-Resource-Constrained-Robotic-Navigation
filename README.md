@@ -93,4 +93,4 @@ python3 swift_scenenet_node.py \
 ```bash
 cd ouster_filter_ws
 colcon build
-ros2 run ouster_cloud_filter cloud_filter_node ^C
+ros2 run ouster_cloud_filter cloud_filter_node
