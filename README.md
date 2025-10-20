@@ -88,7 +88,7 @@ python3 swift_scenenet_node.py \
   -p img_size:=224 \
   -p attn_pool:=14 \
   -p drop_rate:=0.1
-
+```
 ## Point Cloud filter
 ```bash
 cd ouster_filter_ws
