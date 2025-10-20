@@ -12,6 +12,10 @@ Conventional methods fix robots to either 2D or 3D maps:
 - **2D projections** cannot capture elevation and overhanging structures.  
 - **3D maps** impose significant processing and memory overhead.  
 
+## ADAMS framework
+
+![ADAMS](media/switching_algorithm.png)
+
 **ADAMS introduces a scene-aware switching framework**:  
 - A lightweight deep network (**SceneNet**) performs semantic scene classification (corridor, hall, stairs, ramp, elevator, outdoor, room, entrance/exit).  
 - The classification result conditions a **switching function** that selects **2D SLAM** for planar scenes or **3D SLAM** for elevation-rich environments.  
