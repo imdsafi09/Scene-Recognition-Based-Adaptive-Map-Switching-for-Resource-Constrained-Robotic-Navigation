@@ -28,6 +28,10 @@ You can use the following publicly available datasets for training and benchmark
 
 - **AIDERv2 (Extended Version with Scene Variations)**  
   🔗 [https://zenodo.org/records/10891054](https://zenodo.org/records/10891054)
+  
+- **Scene dataset (custom scene dataset for ADAMS)**
+  🔗 [https://zenodo.org/records/10891054](https://zenodo.org/records/10891054)
+  
 ### 1. Dataset Structure
 Your dataset should follow this format:
 
