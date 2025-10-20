@@ -105,3 +105,10 @@ python3 swift_scenenet_node.py \
 cd ouster_filter_ws
 colcon build
 ros2 run ouster_cloud_filter cloud_filter_node
+```
+## Map Switching 
+Run the ROS-2 script to run the switching between 2D and 3D
+```bash
+ros2 run adams_switcher semantic_switcher_node
+
+
