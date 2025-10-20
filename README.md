@@ -1,4 +1,4 @@
-# ADAMS: Adaptive 2D/3D Map Switching for Resource-Constrained Robotic Navigation
+# Scene Recognition-Based Adaptive Map Switching for Resource-Constrained Robotic Navigation
 
 This repository provides the **SceneNet** module as part of the **ADAMS framework** (Adaptive 2D/3D Map Switching).  
 The objective is to enable **data-driven scene classification** for deciding between **2D or 3D SLAM modes** in real-time, optimizing both computational efficiency and navigation robustness.  
