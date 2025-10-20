@@ -39,7 +39,7 @@ You can use the following publicly available datasets for training and benchmark
   🔗 (https://drive.google.com/drive/folders/1o2SohIb9-kcFHKd12FB5N1knYl1Iqf7S?usp=sharing)
 
 - **Pre-trained_models**
-  🔗 [(https://drive.google.com/drive/folders/1o2SohIb9-kcFHKd12FB5N1knYl1Iqf7S?usp=sharing)](https://drive.google.com/drive/folders/1_IEBjXOqe2-ol9SJyqW72rOjJLYKJebH?usp=sharing)
+  🔗 (https://drive.google.com/drive/folders/1_IEBjXOqe2-ol9SJyqW72rOjJLYKJebH?usp=sharing)
   
 ### 1. Dataset Structure
 Your dataset should follow this format:
