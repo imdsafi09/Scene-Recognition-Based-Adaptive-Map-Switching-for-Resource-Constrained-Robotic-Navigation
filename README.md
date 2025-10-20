@@ -116,5 +116,10 @@ ros2 run ouster_cloud_filter cloud_filter_node
 Run the ROS-2 script to run the switching between 2D and 3D
 ```bash
 ros2 run adams_switcher semantic_switcher_node
+```
+## ADAMS results
 
+## hybrid mapping
+
+![hybrid](media/switching_algorithm.png)
 
