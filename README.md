@@ -20,7 +20,14 @@ Conventional methods fix robots to either 2D or 3D maps:
 ---
 
 ## 📂 Dataset Preparation
+### 1. Dataset Sources
+You can use the following publicly available datasets for training and benchmarking **SceneNet**:
 
+- **AIDERv1 (Aerial Image Dataset for Emergency Response)**  
+  🔗 [https://zenodo.org/records/3888300](https://zenodo.org/records/3888300)
+
+- **AIDERv2 (Extended Version with Scene Variations)**  
+  🔗 [https://zenodo.org/records/10891054](https://zenodo.org/records/10891054)
 ### 1. Dataset Structure
 Your dataset should follow this format:
 
