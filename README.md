@@ -23,7 +23,7 @@ Conventional methods fix robots to either 2D or 3D maps:
 
 ## SwiftSceneNet architecure
 
-![SwiftSceneNet](media/architecure.png)
+![SwiftSceneNet](media/Picture12.png)
 
 ## 📂 Dataset Preparation
 ### 1. Dataset Sources
@@ -121,5 +121,5 @@ ros2 run adams_switcher semantic_switcher_node
 
 ## hybrid mapping
 
-![hybrid](media/switching_algorithm.png)
+![hybrid](media/Picture3.png)
 
