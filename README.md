@@ -21,7 +21,9 @@ Conventional methods fix robots to either 2D or 3D maps:
 - The classification result conditions a **switching function** that selects **2D SLAM** for planar scenes or **3D SLAM** for elevation-rich environments.  
 - Transitions are stabilized via an adaptive sensor-fusion pipeline that integrates LiDAR, camera, IMU, and odometry.  
 
----
+## SwiftSceneNet architecure
+
+![SwiftSceneNet](media/architecure.png)
 
 ## 📂 Dataset Preparation
 ### 1. Dataset Sources
