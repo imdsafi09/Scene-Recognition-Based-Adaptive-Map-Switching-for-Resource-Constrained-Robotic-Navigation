@@ -36,7 +36,7 @@ You can use the following publicly available datasets for training and benchmark
   🔗 [https://zenodo.org/records/10891054](https://zenodo.org/records/10891054)
   
 - **Scene dataset (custom scene dataset for ADAMS)**
-  🔗 [https://zenodo.org/records/10891054](https://zenodo.org/records/10891054)](https://drive.google.com/drive/folders/1o2SohIb9-kcFHKd12FB5N1knYl1Iqf7S?usp=sharing)
+  🔗 (https://drive.google.com/drive/folders/1o2SohIb9-kcFHKd12FB5N1knYl1Iqf7S?usp=sharing)
   
 ### 1. Dataset Structure
 Your dataset should follow this format:
