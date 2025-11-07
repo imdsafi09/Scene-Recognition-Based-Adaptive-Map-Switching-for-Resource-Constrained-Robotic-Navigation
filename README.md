@@ -5,6 +5,11 @@ The objective is to enable **data-driven scene classification** for deciding bet
 
 ---
 
+# Note:
+This repository contains the implementation of the SceneNet module and ADAMS framework presented in the paper
+“Scene Recognition-Based Adaptive Map Switching for Resource-Constrained Robotic Navigation,”
+submitted to Engineering Applications of Artificial Intelligence (EAAI) and currently under review.
+
 ## 📖 Overview
 
 Autonomous navigation demands map representations that adapt to environmental complexity while maintaining computational efficiency.  
