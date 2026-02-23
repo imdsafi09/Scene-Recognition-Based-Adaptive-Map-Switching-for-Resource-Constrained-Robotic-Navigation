@@ -18,8 +18,7 @@ Conventional methods fix robots to either 2D or 3D maps:
 - **3D maps** impose significant processing and memory overhead.  
 
 ## ADAMS framework
-
-![ADAMS](media/figure2.png)
+![ADAMS](media/architecure.png)
 
 **ADAMS introduces a scene-aware switching framework**:  
 - A lightweight deep network (**SceneNet**) performs semantic scene classification (corridor, hall, stairs, ramp, elevator, outdoor, room, entrance/exit).  
@@ -28,7 +27,7 @@ Conventional methods fix robots to either 2D or 3D maps:
 
 ## SwiftSceneNet architecure
 
-![SwiftSceneNet](media/Picture12.png)
+![SwiftSceneNet](media/figure2.png)
 
 ## 📂 Dataset Preparation
 ### 1. Dataset Sources
