@@ -19,7 +19,7 @@ Conventional methods fix robots to either 2D or 3D maps:
 
 ## ADAMS framework
 
-![ADAMS](media/switching_algorithm.png)
+![ADAMS](media/figure2.png)
 
 **ADAMS introduces a scene-aware switching framework**:  
 - A lightweight deep network (**SceneNet**) performs semantic scene classification (corridor, hall, stairs, ramp, elevator, outdoor, room, entrance/exit).  
